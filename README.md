@@ -6,6 +6,8 @@ Decodes an audio file (from any local file or remote URL supported by XHR) using
 
 Uses MP3 encoder from https://github.com/zhuker/lamejs
 
+:warning: This is rather a proof of concept than anything else you should try to use in prod!
+
 # Run demo
 
 ```
