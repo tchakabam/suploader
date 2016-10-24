@@ -1,0 +1,25 @@
+{
+  "name": "supload",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "4.10.2",
+    "multer": "0.1.6"
+  },
+  "description": "Simple MP3 client side encoding & uploading",
+  "main": "lib.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "rm -Rf uploads && mkdir uploads && node demo-server.js"
+  },
+  "keywords": [
+    "MP3",
+    "decode",
+    "transcode",
+    "encode",
+    "blob",
+    "upload"
+  ],
+  "author": "Stephan Hesse <tchakabam@gmail.com>",
+  "license": "MIT"
+}
