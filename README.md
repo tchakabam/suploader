@@ -1,12 +1,23 @@
 #SupLoader
 
-Simple MP3 client side encoding & uploading
+Simple client side encoding & uploading of MP3s from any supported audio format:
 
-Decodes an audio file (from any URL) using XHR, the available WebAudio API, encodes it to MP3 and posts it to an HTTP endpoint.
+Decodes an audio file (from any local file or remote URL supported by XHR) using the available WebAudio implementation, encodes it to MP3 using LAME.js and posts it to an HTTP endpoint of your choice.
 
 Uses MP3 encoder from https://github.com/zhuker/lamejs
 
-#Usage
+# Run demo
+
+```
+npm install
+npm run demo
+```
+
+Go to `localhost:3000`, choose a file (for example WAV) to transcode.
+
+Check server output log. When upload done, go to the `upload` directory in the project root and find the MP3 output.
+
+# API
 
     var Supload = require('supload');
 
