@@ -1,3 +1,8 @@
+/*
+ * @author Stephan Hesse <tchakabam@gmail.com>
+ * @copyright 2016, see MIT license attached
+ */
+
 var context = new AudioContext();
 
 function uploadBlob(blob, filename, config) {
