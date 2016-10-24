@@ -1,6 +1,6 @@
 #SupLoader
 
-Simple client side encoding & uploading of MP3s from any supported audio format:
+Simple client side encoding & uploading of MP3s from any supported audio format!
 
 Decodes an audio file (from any local file or remote URL supported by XHR) using the available WebAudio implementation, encodes it to MP3 using LAME.js and posts it to an HTTP endpoint of your choice.
 
